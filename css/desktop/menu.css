@@ -1,0 +1,39 @@
+label[for="show"]{
+    display: none;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    left: unset;
+    padding: unset;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    position: unset;
+    nav{
+        ul{
+            flex-flow: row nowrap;
+            justify-content: center;
+            li{
+                width: fit-content;
+                &:hover{
+                    background-color: unset;
+                }
+                a{
+                    transition: 500ms;
+                    &:hover{
+                        color: gold;
+                    }
+                }
+            }
+        }
+    }
+
+    label[for="close"]{
+        display: none;
+    }
+}
+
+input#show , input#close {
+    display: none;
+}
